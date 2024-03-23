@@ -1,0 +1,19 @@
+*{
+    color: red;
+}
+
+.books-container{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.book{
+    padding: 10%;
+    margin: 1rem 5rem;
+    border-radius: 10px;
+
+    background-color: rgb(31 41 55);
+}
