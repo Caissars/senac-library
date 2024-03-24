@@ -15,7 +15,8 @@ body, html{
 
 .info{
     flex-grow: 1;
-    padding: 8rem 8rem 8rem 0.5rem;
+    padding: 10% 10%;
+    
     margin-left: 2rem;
     text-align: left;
     color: rgb(199, 202, 208);
