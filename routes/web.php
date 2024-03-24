@@ -23,4 +23,16 @@ Route::get('/book', function () {
     return view('book');
 });
 
+Route::get('/book1', function () {
+    return view('book1');
+});
+
+Route::get('/book2', function () {
+    return view('book2');
+});
+
+Route::get('/book3', function () {
+    return view('book3');
+});
+
 require __DIR__.'/auth.php';

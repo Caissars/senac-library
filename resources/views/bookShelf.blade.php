@@ -7,11 +7,9 @@
     </head>
     <body>
         <div class="books-container mx-auto">
-            <div class="book">livro</div>
-            <div class="book">livro</div>
-            <div class="book">livro</div>
-            <div class="book">livro</div>
-            <div class="book">livro</div>
+            <a href="/book" class="book">livro</a>
+            <a href="/book1" class="book">livro</a>
+            <a href="/book2" class="book">livro</a>
         </div>
     </body>
 </html>
