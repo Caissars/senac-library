@@ -17,4 +17,10 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+// Simulate book list
+
+Route::get('/book', function () {
+    return view('book');
+});
+
 require __DIR__.'/auth.php';
