@@ -17,22 +17,18 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-// Simulate book list
+//List books
 
 Route::get('/book', function () {
     return view('book');
 });
 
 Route::get('/book1', function () {
-    return view('book1');
+    return view('book');
 });
 
 Route::get('/book2', function () {
-    return view('book2');
-});
-
-Route::get('/book3', function () {
-    return view('book3');
+    return view('book');
 });
 
 require __DIR__.'/auth.php';

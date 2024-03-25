@@ -13,6 +13,6 @@
                 </div>
             </div>
         </div>
-        @include('bookShelf')
     </div>
+    @include('bookShelf')
 </x-app-layout>
